@@ -1,17 +1,39 @@
 /*GeneratePress breakpoints*/
 /*@media (max-width: 768px) {*/
-    /*!* CSS in here for mobile only *!*/
+/*!* CSS in here for mobile only *!*/
 /*}*/
 /*@media (min-width: 769px) and (max-width: 1024px) {*/
-    /*!* CSS in here for tablet only *!*/
+/*!* CSS in here for tablet only *!*/
 /*}*/
 /*@media (min-width: 1025px) {*/
-    /*!* CSS in here for desktop only *!*/
+/*!* CSS in here for desktop only *!*/
 /*}*/
 
 /*Beaver breakpoints*/
 /*1024 and 768*/
 
-body {
+/*--- HOME THUMBNAIL GRID ---*/
+@media (min-width : 600px) {
+    #home-grid-wrapper .fl-col {
+        flex-basis : 50%;
+        width: 50% !important;
+
+    }
 }
 
+@media (min-width : 769px) {
+    #home-grid-wrapper .fl-col {
+        flex-basis : 33.33%;
+        width: 33.3% !important;
+
+    }
+}
+
+@media (max-width : 768px) {
+    .separate-containers .inside-article {
+        padding : 10px;
+    }
+    .inside-site-info {
+        padding: 0 10px;
+    }
+}
