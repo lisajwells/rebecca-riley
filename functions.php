@@ -14,3 +14,14 @@ function rriley_enqueue_scripts() {
 	wp_enqueue_style( 'rriley_media', trailingslashit(get_stylesheet_directory_uri() ) . '/style-mq.css' );
 }
 add_action( 'wp_enqueue_scripts', 'rriley_enqueue_scripts', 100 );
+
+// Add square image size for Category Cover image
+add_image_size( 'category-cover', 420, 420, true );
+
+// Register the three useful image sizes for use in Add Media modal
+add_filter( 'image_size_names_choose', 'rriley_custom_sizes' );
+function rriley_custom_sizes( $sizes ) {
+	return array_merge( $sizes, array(
+		'category-cover' => __( 'Category Cover' ),
+	) );
+}
