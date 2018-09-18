@@ -42,8 +42,9 @@ body {
 }
 
 #home-grid-wrapper .fl-col {
-    flex-basis: 33%;
-    width: 33% !important;
+    flex-basis: 33.3%;
+    margin: 0;
+    /*width: 33.3% !important;*/
 }
 
 /*--- FOOTER ---*/

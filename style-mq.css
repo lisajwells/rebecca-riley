@@ -1,0 +1,17 @@
+/*GeneratePress breakpoints*/
+/*@media (max-width: 768px) {*/
+    /*!* CSS in here for mobile only *!*/
+/*}*/
+/*@media (min-width: 769px) and (max-width: 1024px) {*/
+    /*!* CSS in here for tablet only *!*/
+/*}*/
+/*@media (min-width: 1025px) {*/
+    /*!* CSS in here for desktop only *!*/
+/*}*/
+
+/*Beaver breakpoints*/
+/*1024 and 768*/
+
+body {
+}
+
