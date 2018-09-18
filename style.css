@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Rebecca Riley
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Sticky footer*/
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+#page {
+    flex: 1 0 auto;
+}
+.admin-bar #page {
+    margin-bottom: -32px;
+}
+.site-header, .site-footer {
+    flex-shrink: 0;
+}
+/**/
+
+
+/*--- FOOTER ---*/
+.inside-site-info {
+    padding: 0 40px;
+}
