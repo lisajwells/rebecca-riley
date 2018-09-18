@@ -25,7 +25,6 @@
     #home-grid-wrapper .fl-col {
         flex-basis : 33.33%;
         width: 33.3% !important;
-
     }
 }
 
@@ -36,4 +35,12 @@
     .inside-site-info {
         padding: 0 10px;
     }
+    .project-col {
+        max-width: 400px !important;
+    }
+    .project-col h2, .project-col p {
+        text-align: left !important;
+    }
+
+
 }

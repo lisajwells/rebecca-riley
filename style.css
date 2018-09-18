@@ -26,13 +26,14 @@ body {
     flex: 1 0 auto;
     max-width: 1360px;
 }
-/*.admin-bar #page {*/
-    /*margin-bottom: -32px;*/
-/*}*/
 .site-header, .site-footer {
     flex-shrink: 0;
 }
 /**/
+
+.entry-header h1, .page-header h1 {
+    text-align: center;
+}
 
 /*--- HOME THUMBNAIL GRID ---*/
 #home-grid-wrapper .fl-col-group {
@@ -44,8 +45,9 @@ body {
 #home-grid-wrapper .fl-col {
     flex-basis: 100%;
     margin: 0;
-    /*width: 50% !important;*/
 }
+
+/*--- CATEGORY PAGE ---*/
 
 /*--- LIGHTBOX ---*/
 .fbx-caption-desc {
@@ -55,4 +57,13 @@ body {
 /*--- FOOTER ---*/
 .inside-site-info {
     padding: 0 40px;
+}
+
+.fa-footer-icon {
+    margin-left: .5em;
+}
+
+.generate-back-to-top, .generate-back-to-top:visited {
+    bottom        : 70px;
+    right         : 23px;
 }
