@@ -47,6 +47,11 @@ body {
     /*width: 50% !important;*/
 }
 
+/*--- LIGHTBOX ---*/
+.fbx-caption-desc {
+    line-height : 28px;
+}
+
 /*--- FOOTER ---*/
 .inside-site-info {
     padding: 0 40px;
