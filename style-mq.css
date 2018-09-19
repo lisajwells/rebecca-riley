@@ -23,8 +23,8 @@
 
 @media (min-width : 769px) {
     #home-grid-wrapper .fl-col {
-        flex-basis : 33.33%;
-        width: 33.3% !important;
+        flex-basis : 25%;
+        width: 25% !important;
     }
 }
 
