@@ -54,8 +54,25 @@ body {
 /*--- CATEGORY PAGE ---*/
 
 /*--- LIGHTBOX ---*/
+.fbx-caption-title {
+    font-family: "Work Sans","Segoe UI",Helvetica,Arial,"Sans Serif",serif;
+}
 .fbx-caption-desc {
     line-height : 28px;
+    font-family: "Open Sans","Segoe UI",Helvetica,Arial,"Sans Serif",serif;
+}
+
+.fbx-caption-title+.fbx-caption-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fbx-caption-desc span {
+    flex: 1 0 33.3%;
+}
+
+.fbx-caption-desc span.photo-credit {
+    text-align: right;
 }
 
 /*--- FOOTER ---*/
