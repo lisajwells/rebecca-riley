@@ -58,20 +58,28 @@ body {
     font-family: "Work Sans","Segoe UI",Helvetica,Arial,"Sans Serif",serif;
 }
 .fbx-caption-desc {
-    line-height : 28px;
     font-family: "Open Sans","Segoe UI",Helvetica,Arial,"Sans Serif",serif;
+    line-height : 18px;
 }
 
 .fbx-caption-title+.fbx-caption-desc {
+    align-items: flex-end;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: -24px;
 }
 
 .fbx-caption-desc span {
-    flex: 1 0 33.3%;
+    flex: 1 1 33.3%;
+    padding: 0 1em;
+}
+
+.fbx-caption-desc span.photo-desc {
+    flex: 2 0 33.3%;
 }
 
 .fbx-caption-desc span.photo-credit {
+    font-size: 11px;
     text-align: right;
 }
 
