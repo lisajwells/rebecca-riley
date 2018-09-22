@@ -35,6 +35,18 @@ body {
 }
 /**/
 
+p {
+    margin-bottom: 1.2em;
+}
+
+.inside-article h2 a, .inside-article h2 a:visited, .inside-article h2 a:focus {
+    color: #000000;
+}
+
+.inside-article h2 a:hover {
+    color: #8c8c8c;
+}
+
 .entry-header h1, .page-header h1 {
     text-align: center;
 }
@@ -52,6 +64,16 @@ body {
 }
 
 /*--- CATEGORY PAGE ---*/
+
+/*--- CV PAGE ---*/
+
+.cv-list strong {
+    font-weight: 600;
+}
+
+.page-id-62 .entry-content {
+    max-width: 800px;
+}
 
 /*--- LIGHTBOX ---*/
 .fbx-caption-title {

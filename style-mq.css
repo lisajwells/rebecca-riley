@@ -30,7 +30,7 @@
 
 @media (max-width : 768px) {
     .separate-containers .inside-article {
-        padding : 10px;
+        padding : 20px;
     }
     .inside-site-info {
         padding: 0 10px;
