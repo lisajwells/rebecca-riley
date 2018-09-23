@@ -29,7 +29,17 @@ body {
 #page {
     flex: 1 0 auto;
     max-width: 1360px;
+    width: 100%;
 }
+
+.project-row {
+    max-width: 1000px;
+}
+
+.archive-hed h2 {
+    font-size: 34px;
+}
+
 .site-header, .site-footer {
     flex-shrink: 0;
 }
