@@ -15,6 +15,7 @@
 /*--- HOME THUMBNAIL GRID ---*/
 @media (min-width : 600px) {
     #home-grid-wrapper .fl-col {
+        -ms-flex-preferred-size : 50%;
         flex-basis : 50%;
         width: 50% !important;
 
@@ -23,6 +24,7 @@
 
 @media (min-width : 769px) {
     #home-grid-wrapper .fl-col {
+        -ms-flex-preferred-size : 25%;
         flex-basis : 25%;
         width: 25% !important;
     }
