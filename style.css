@@ -44,6 +44,10 @@ body {
     max-width : 1000px;
 }
 
+.fl-module-rich-text .fl-module-content.fl-node-content {
+    margin: 14px 20px 20px;
+}
+
 .archive-hed h2 {
     font-size  : 34px;
     margin-top : 1.5em;
