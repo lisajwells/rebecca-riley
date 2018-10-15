@@ -16,17 +16,17 @@
 @media (min-width : 600px) {
     #home-grid-wrapper .fl-col {
         -ms-flex-preferred-size : 50%;
-        flex-basis : 50%;
-        width: 50% !important;
+        flex-basis              : 50%;
+        width                   : 50% !important;
 
     }
 }
 
-@media (min-width : 769px) {
+@media (min-width : 840px) {
     #home-grid-wrapper .fl-col {
         -ms-flex-preferred-size : 25%;
-        flex-basis : 25%;
-        width: 25% !important;
+        flex-basis              : 25%;
+        width                   : 25% !important;
     }
 }
 
@@ -34,15 +34,17 @@
     .separate-containers .inside-article {
         padding : 20px;
     }
+
     .inside-site-info {
-        padding: 0 10px;
-    }
-    .project-col {
-        max-width: 400px !important;
-    }
-    .project-col h2, .project-col p {
-        text-align: left !important;
+        padding : 0 10px;
     }
 
+    .project-col {
+        max-width : 400px !important;
+    }
+
+    .project-col h2, .project-col p {
+        text-align : left !important;
+    }
 
 }
